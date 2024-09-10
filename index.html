@@ -6,20 +6,14 @@
     <title>castle.fyi</title>
     <style>
       html {
-        background-image: url("bg.gif");
         height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
         font-family: "Courier New", Courier, "Lucida Console", monospace;
       }
       body {
         height: 100%;
         margin: 0;
         padding: 0;
-        background: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        background-color: #000005;
       }
 
       body ul {
@@ -45,19 +39,33 @@
       body ul li a:hover {
         color: #f067ac;
       }
+
+      .bg {
+        height: 100%;
+        width: 100%;
+        background-image: url("bg.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
     </style>
   </head>
   <body>
-    <ul>
-      <li><a href="https://codeworkshop.dev">Code Workshop</a></li>
-      <li><a href="https://modelpad.app">ModelPad</a></li>
-      <li><a href="https://lowkeyviewer.com">Lowkey Media Viewer</a></li>
-      <li><a href="https://punknaturalism.com">Punk Naturalism</a></li>
-      <li><a href="https://github.com/SteveCastle">GitHub</a></li>
-      <li>
-        <a href="https://www.linkedin.com/in/stephencastle6/">LinkedIn</a>
-      </li>
-      <li><a href="https://bsky.app/profile/castle.fyi">BlueSky</a></li>
-    </ul>
+    <div class="bg">
+      <ul>
+        <li><a href="https://codeworkshop.dev">Code Workshop</a></li>
+        <li><a href="https://modelpad.app">ModelPad</a></li>
+        <li><a href="https://lowkeyviewer.com">Lowkey Media Viewer</a></li>
+        <li><a href="https://punknaturalism.com">Punk Naturalism</a></li>
+        <li><a href="https://github.com/SteveCastle">GitHub</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/stephencastle6/">LinkedIn</a>
+        </li>
+        <li><a href="https://bsky.app/profile/castle.fyi">BlueSky</a></li>
+      </ul>
+    </div>
   </body>
 </html>
